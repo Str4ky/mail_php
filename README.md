@@ -29,4 +29,7 @@ utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br>
 __Test du projet__ :
 
 Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
+
+<br>
+
 Ou encore Laragon : https://laragon.org
