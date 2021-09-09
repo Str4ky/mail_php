@@ -7,7 +7,7 @@
   
 *Envoie de mail automatique avec Outlook*
 
-Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
+Utilisant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
 <br>
 
