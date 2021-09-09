@@ -18,5 +18,5 @@ $mailpsw = "votre_mot_de_passe_outlook";
 Changer le style du message qui vous sera envoyé
 
 ```
-$mailmsg = utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
+utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
 ```
