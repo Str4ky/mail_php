@@ -1,5 +1,7 @@
 <h2>PHP Mail</h2>
+<div>
 <a title="Utilisation du PHP"><img alt="Utilisation du PHP" src="https://img.shields.io/badge/PHP-Utilisation%20du%20PHP-purple"></a> <a title="Utilisation du CSS"><img alt="Utilisation du CSS" src="https://img.shields.io/badge/CSS-Utilisation%20du%20CSS-red"></a>
+</div>
   
   <br>
   
