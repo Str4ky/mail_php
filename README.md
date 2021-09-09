@@ -4,6 +4,7 @@
 
 Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
+
 __Utilisation__ :
 
 Dans le fichier "mail.php" changer ces 2 lignes avec vos logins outlook
