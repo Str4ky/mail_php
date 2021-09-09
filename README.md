@@ -4,6 +4,7 @@
 
 Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
+<br>
 
 __Utilisation__ :
 
