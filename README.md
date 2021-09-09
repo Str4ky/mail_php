@@ -1,4 +1,4 @@
-<h4>PHP Mail</h4>
+<h6>PHP Mail</h6>
 
 Envoie de mail automatique avec Outlook
 
