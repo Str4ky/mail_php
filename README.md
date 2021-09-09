@@ -1,5 +1,5 @@
 <h2>PHP Mail</h2>
-
+  <a href="#tada-php-support" title="PHP Versions Supported"><img alt="PHP Versions Supported" src="https://img.shields.io/badge/php-5.3%20to%208.1-777bb3.svg?logo=php&logoColor=white&labelColor=555555"></a> 
 *Envoie de mail automatique avec Outlook*
 
 Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
