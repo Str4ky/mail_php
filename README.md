@@ -11,7 +11,7 @@ Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
 <br>
 
-__Utilisation__ :
+__Utilisation :__
 
 Dans le fichier __mail.php__ changez ces 2 lignes avec vos logins outlook
 
@@ -28,7 +28,7 @@ utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br>
 
 <br>
 
-__Test du projet__ :
+__Test du projet :__
 
 Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
 <br>
