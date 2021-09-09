@@ -15,8 +15,8 @@ $mailto = "votre_email@outlook.fr";
 $mailpsw = "votre_mot_de_passe_outlook";
 ```
 
-Changer votre nom ligne 13
+Changer le style du message qui vous sera envoyé
 
 ```
-©Votre Nom
+ $mailmsg = utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
 ```
