@@ -1,5 +1,7 @@
 <h2>PHP Mail</h2>
-  <a href="#tada-php-support" title="PHP Versions Supported"><img alt="PHP Versions Supported" src="https://img.shields.io/badge/php-5.3%20to%208.1-777bb3.svg?logo=php&logoColor=white&labelColor=555555"></a> 
+<div>
+<a title="Utilisation du PHP"><img alt="Utilisation du PHP" src="https://img.shields.io/badge/PHP-Utilisation%20du%20PHP-purple"></a>   <a title="Utilisation du CSS"><img alt="Utilisation du CSS" src="https://img.shields.io/badge/CSS-Utilisation%20du%20CSS-red"></a>
+</div>
   
   <br>
   
@@ -9,17 +11,25 @@ Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
 <br>
 
-__Utilisation__ :
+__Utilisation :__
 
-Dans le fichier __mail.php__ changer ces 2 lignes avec vos logins outlook
+Dans le fichier __mail.php__ changez ces 2 lignes avec vos logins outlook
 
 ```
 $mailto = "votre_email@outlook.fr";
 $mailpsw = "votre_mot_de_passe_outlook";
 ```
 
-Changer le style d'affichage du message qui vous sera envoyé
+Changez le style d'affichage du message qui vous sera envoyé
 
 ```
 utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
 ```
+
+<br>
+
+__Test du projet :__
+
+Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
+<br>
+Ou encore Laragon : https://laragon.org
