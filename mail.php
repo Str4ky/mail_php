@@ -1,5 +1,7 @@
 <!--Vérifier si la valeur d'envoie de mail existe pour ne rien changer-->
 <?php
+session_start();
+
 if (!isset($_SESSION['message']))
 {
     $_SESSION['message'] = '';
@@ -10,6 +12,7 @@ if (!isset($_SESSION['message']))
     $mailto = "votre_email@outlook.fr";
     $mailpsw = "votre_mot_de_passe_outlook";
     $mailsub = $_POST["subject"];
+    $_SESSION['message'] = "sent";
     $mailmsg = utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
     require("src/PHPMailer.php");
     require("src/SMTP.php");
@@ -31,7 +34,6 @@ if (!isset($_SESSION['message']))
     $mail->Body = $mailmsg;
     $mail->AddAddress($mailto);
     $mail->Send();
-    $_SESSION['message'] = 1;
     /*Rediriger l'utilisateur sur la page de message*/
     echo '<script language="Javascript">
     <!--

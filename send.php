@@ -1,5 +1,7 @@
 <!--Vérifier si la valeur d'envoie de mail existe pour ne rien changer-->
 <?php
+session_start();
+
 if (!isset($_SESSION['message']))
 {
     $_SESSION['message'] = '';
@@ -8,7 +10,7 @@ if (!isset($_SESSION['message']))
 <link rel="stylesheet" href="default.css">
 <?php
 /*Vérifier si un mail a été envoyé*/
-if($_SESSION['message'] = 1)
+if($_SESSION['message'] == "sent")
 {
 echo"
 <body>

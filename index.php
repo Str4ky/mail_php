@@ -1,5 +1,7 @@
 <!--Vérifier si un mail a été envoyé pour réinitialiser sa valeur-->
 <?php
+session_start();
+
 if (isset($_SESSION['message']))
 {
     $_SESSION['message'] = '';
