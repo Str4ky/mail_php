@@ -1,6 +1,6 @@
 <h2>PHP Mail</h2>
 
-Envoie de mail automatique avec Outlook
+*Envoie de mail automatique avec Outlook*
 
 Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
