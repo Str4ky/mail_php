@@ -9,8 +9,10 @@ if (!isset($_SESSION['message']))
 ?>
 <!--Configurer le compte Outloook ainsi que le coprs du mail puis envoyer celui-ci puis définir la variable d'envoie d'un message-->
 <?php
-    $mailto = "votre_email@outlook.fr";
+    $mailfrom = "votre_email@outlook.fr";
     $mailpsw = "votre_mot_de_passe_outlook";
+/*Si vous voulez que l'éditeur et le destinataire soit pas le même compte mettez des emails différents, sinon mettez les même adresses*/
+    $mailto = "votre_destinataire@outlook.fr";
     $mailsub = $_POST["subject"];
     $_SESSION['message'] = "sent";
     $mailmsg = utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
@@ -27,9 +29,9 @@ if (!isset($_SESSION['message']))
     $mail->Port = 587; 
 
     $mail->IsHTML(true);
-    $mail->Username = $mailto;
+    $mail->Username = $mailfrom;
     $mail->Password = $mailpsw;
-    $mail->setFrom($mailto);
+    $mail->setFrom($mailfrom);
     $mail->Subject = $mailsub;
     $mail->Body = $mailmsg;
     $mail->AddAddress($mailto);
