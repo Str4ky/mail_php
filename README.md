@@ -1,6 +1,6 @@
 <h2>PHP Mail</h2>
 <div>
-<a title="Utilisation du PHP"><img alt="Utilisation du PHP" src="https://img.shields.io/badge/PHP-Utilisation%20du%20PHP-purple"></a> <a title="Utilisation du CSS"><img alt="Utilisation du CSS" src="https://img.shields.io/badge/CSS-Utilisation%20du%20CSS-red"></a> <a title="Utilisation de PHPMailer"><img alt="Utilisation de PHPMailer" src="https://img.shields.io/badge/PHPMailer-Utilisation%20de%20PHPMailer-yellow"></a>
+<a title="Utilisation du PHP"><img alt="Utilisation du PHP" src="https://img.shields.io/badge/PHP-Utilisation%20du%20PHP-purple"></a> <a title="Utilisation du CSS"><img alt="Utilisation du CSS" src="https://img.shields.io/badge/CSS-Utilisation%20du%20CSS-blue"></a> <a title="Utilisation de PHPMailer"><img alt="Utilisation de PHPMailer" src="https://img.shields.io/badge/PHPMailer-Utilisation%20de%20PHPMailer-yellow"></a>
 </div>
   
   <br>
