@@ -35,5 +35,4 @@ Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
 Ou encore Laragon : https://laragon.org si vous êtes en local
 
 <br>
-
 Vous pouvez aussi l'hoster sur votre propre site web/serveur
