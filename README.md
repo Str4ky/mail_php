@@ -16,8 +16,9 @@ __Utilisation :__
 Dans le fichier __mail.php__ changez ces 2 lignes avec vos logins outlook
 
 ```
-$mailto = "votre_email@outlook.fr";
+$mailfrom = "votre_email@outlook.fr";
 $mailpsw = "votre_mot_de_passe_outlook";
+$mailto = "votre_destinataire@outlook.fr";
 ```
 
 Changez le style d'affichage du message qui vous sera envoyé
