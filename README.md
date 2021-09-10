@@ -1,13 +1,13 @@
 <h2>PHP Mail</h2>
 <div>
-<a title="Utilisation du PHP"><img alt="Utilisation du PHP" src="https://img.shields.io/badge/PHP-Utilisation%20du%20PHP-purple"></a>   <a title="Utilisation du CSS"><img alt="Utilisation du CSS" src="https://img.shields.io/badge/CSS-Utilisation%20du%20CSS-red"></a>
+<a title="PHP"><img alt="PHP" src="https://img.shields.io/badge/PHP-Site%20web-purple"></a> <a title="CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-Style-blue"></a> <a title="PHPMailer"><img alt="PHPMailer" src="https://img.shields.io/badge/PHPMailer-Script-yellow"></a>
 </div>
   
   <br>
   
 *Envoie de mail automatique avec Outlook*
 
-Utiliant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
+Utilisant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
 <br>
 
@@ -32,4 +32,6 @@ __Test du projet :__
 
 Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
 <br>
-Ou encore Laragon : https://laragon.org
+Ou encore Laragon : https://laragon.org si vous êtes en local
+<br><br>
+Vous pouvez aussi l'hoster sur votre propre site web/serveur
