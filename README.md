@@ -13,7 +13,7 @@ Utilisant le projet PHPMailer : https://raw.github.com/PHPMailer/PHPMailer
 
 __Utilisation :__
 
-Dans le fichier __mail.php__ changez ces 2 lignes avec vos logins outlook
+Dans le fichier __mail.php__ changez ces 3 lignes avec vos logins outlook et le destinataire
 
 ```
 $mailfrom = "votre_email@outlook.fr";
