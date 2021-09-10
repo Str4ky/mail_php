@@ -33,6 +33,5 @@ __Test du projet :__
 Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
 <br>
 Ou encore Laragon : https://laragon.org si vous êtes en local
-
-<br>
+<br><br>
 Vous pouvez aussi l'hoster sur votre propre site web/serveur
