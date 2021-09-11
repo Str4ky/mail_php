@@ -6,6 +6,11 @@ if (!isset($_SESSION['message']))
 {
     $_SESSION['message'] = '';
 }
+else
+{
+    $message = $_SESSION['message'];
+    $_SESSION['message'] = '';
+}
 ?>
 <!--Formulaire basique d'envoie de mail-->
 <link rel="stylesheet" href="default.css">
@@ -18,7 +23,7 @@ if (!isset($_SESSION['message']))
     <center><textarea name="message" id="message" placeholder="Entrez votre message" class="textarea" required></textarea></center><br>
     <!--Affiche un message après l'envoie du mail-->
 	<?php
-	echo "<center>{$_SESSION['message']}</center><br>";
+	echo "<center>$message</center><br>";
 	?>
     <center><input type="submit" class="input" value="Envoyer"/></center>
 </form>
