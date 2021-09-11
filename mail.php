@@ -13,7 +13,7 @@ if (!isset($_SESSION['message']))
     $mailpsw = "votre_mot_de_passe_outlook";
 /*Si vous voulez que l'éditeur et le destinataire soit pas le même compte mettez des emails différents, sinon mettez les même adresses*/
     $mailto = "votre_destinataire@outlook.fr";
-    $mailsub = $_POST["subject"];
+    $mailsub = utf8_decode($_POST["subject"]);
     $_SESSION['message'] = "Le message a été envoyé avec succès";
     $mailmsg = utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
     require("src/PHPMailer.php");
