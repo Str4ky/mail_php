@@ -18,7 +18,7 @@ if (!isset($_SESSION['message']))
     <center><textarea name="message" id="message" placeholder="Entrez votre message" class="textarea" required></textarea></center><br>
     <!--Affiche un message après l'envoie du mail-->
 	<?php
-	echo $_SESSION['message'];
+	echo "<center>{$_SESSION['message']}</center><br>";
 	?>
     <center><input type="submit" class="input" value="Envoyer"/></center>
 </form>
