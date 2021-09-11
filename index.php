@@ -1,8 +1,11 @@
-<!--Réinitialiser la valeur du message lors de l'envoie du mail-->
+<!--Vérifier si un mail a été envoyé pour réinitialiser sa valeur-->
 <?php
 session_start();
 
-$_SESSION['message'] = '';
+if (!isset($_SESSION['message']))
+{
+    $_SESSION['message'] = '';
+}
 ?>
 <!--Formulaire basique d'envoie de mail-->
 <link rel="stylesheet" href="default.css">
