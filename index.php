@@ -5,6 +5,7 @@ session_start();
 if (!isset($_SESSION['message']))
 {
     $_SESSION['message'] = '';
+    $message = '';
 }
 else
 {
