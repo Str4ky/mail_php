@@ -27,7 +27,7 @@ Changez le style d'affichage du message qui vous sera envoyé
 utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
 ```
 
-Par défaut les serveurs mails sont ceux __d'Outlook__, vous pouvez les changer en modifiant ces lignes
+Par défaut les serveurs mails sont ceux d'__Outlook__, vous pouvez les changer en modifiant ces lignes
 
 ```
 $mail->SMTPSecure = 'tls';
