@@ -5,7 +5,7 @@
   
   <br>
   
-*Envoie de mail automatique avec Outlook*
+*Envoie de mail automatique en PHP*
 
 Utilisant le projet PHPMailer : https://github.com/PHPMailer/PHPMailer
 
@@ -16,15 +16,23 @@ __Utilisation :__
 Dans le fichier __mail.php__ changez ces 3 lignes avec vos logins outlook et le destinataire
 
 ```
-$mailfrom = "votre_email@outlook.fr";
-$mailpsw = "votre_mot_de_passe_outlook";
-$mailto = "votre_destinataire@outlook.fr";
+$mailfrom = "votre_email@mail.fr";
+$mailpsw = "votre_mot_de_passe";
+$mailto = "votre_destinataire@mail.fr";
 ```
 
 Changez le style d'affichage du message qui vous sera envoyé
 
 ```
 utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
+```
+
+Par défaut les serveurs mails sont ceux __d'Outlook__, vous pouvez les changer en modifiant ces lignes
+
+```
+$mail->SMTPSecure = 'tls';
+$mail->Host = "smtp.live.com";
+$mail->Port = 587;
 ```
 
 <br>
