@@ -13,7 +13,7 @@ Utilisant le projet PHPMailer : https://github.com/PHPMailer/PHPMailer
 
 __Utilisation :__
 
-Dans le fichier __mail.php__ changez ces 3 lignes avec vos logins outlook et le destinataire
+Dans le fichier __mail.php__ changez ces 3 lignes avec les logins de votre compte Outlook/Gmail/etc... et le destinataire
 
 ```
 $mailfrom = "votre_email@mail.fr";
@@ -21,7 +21,7 @@ $mailpsw = "votre_mot_de_passe";
 $mailto = "votre_destinataire@mail.fr";
 ```
 
-Changez le style d'affichage du message qui vous sera envoyé
+Changez, comment le message qui sera envoyé par mail ressemblera en terme de mise en page
 
 ```
 utf8_decode("Envoyé par : {$_POST['name']}<br>Son email : {$_POST['email']}<br><br>{$_POST['message']}<br><br>©Votre Nom");
