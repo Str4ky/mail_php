@@ -39,8 +39,8 @@ $mail->Port = 587;
 
 __Test du projet :__
 
-Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com
+Utilisez un logiciel de wamp tel que Uwamp : https://www.uwamp.com ou Laragon : https://laragon.org
 <br>
-Ou encore Laragon : https://laragon.org si vous êtes en local
+Mettez le dossier du projet dans le dossier __www__ de votre logiciel de Wamp et lancer le projet depuis votre navigateur web
 <br><br>
 Vous pouvez aussi l'hoster sur votre propre site web/serveur
