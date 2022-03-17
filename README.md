@@ -1,4 +1,4 @@
-<h2>PHP Mail</h2>
+<h2>PHP Mailer Example</h2>
 <div>
 <a title="PHP"><img alt="PHP" src="https://img.shields.io/badge/PHP-Site%20web-purple"></a> <a title="CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-Style-blue"></a> <a title="PHPMailer"><img alt="PHPMailer" src="https://img.shields.io/badge/PHPMailer-Script-yellow"></a>
 </div>
@@ -31,7 +31,7 @@ Par défaut les serveurs mails sont ceux d'__Outlook__, vous pouvez les changer 
 
 ```
 $mail->SMTPSecure = 'tls';
-$mail->Host = "smtp.live.com";
+$mail->Host = "smtp-mail.outlook.com";
 $mail->Port = 587;
 ```
 
