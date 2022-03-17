@@ -25,7 +25,7 @@ if (!isset($_SESSION['message']))
 
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
-    $mail->Host = "smtp.live.com";
+    $mail->Host = "smtp-mail.outlook.com";
     $mail->Port = 587; 
 
     $mail->IsHTML(true);
